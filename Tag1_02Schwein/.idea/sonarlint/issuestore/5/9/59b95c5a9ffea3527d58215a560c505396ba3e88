@@ -1,0 +1,5 @@
+
+D	cpp:S1117"(declaration shadows a field of 'Schwein'(–öÇö8©Ô©²¢1
+|	cpp:S3230"`Do not assign data members in a constructor. Initialize member "name" in an initialization list.(ºËÜ8Ê…ì±¢1
+„	cpp:S3230"cDo not assign data members in a constructor. Initialize member "gewicht" in an initialization list.(˜øîÅüÿÿÿÿ8“Âì±¢1
+b	cpp:S6009"FReplace this const reference to "std::string" by a "std::string_view".(–öÇö8²Ô©²¢1

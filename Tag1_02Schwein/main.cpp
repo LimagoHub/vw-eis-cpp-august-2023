@@ -2,16 +2,16 @@
 
 #include "Schwein.h"
 
+using namespace std;
 
 int main() {
 
-    Schwein piggy;  // Automatisch wird auch der Konstruktor aufgerufen
+    Schwein babe;
+    Schwein piggy;
 
     piggy.setName("Miss Piggy");
 
-    piggy.drucken();
-    piggy.fuettern();
-    piggy.drucken();
+    cout << piggy << endl;
 
     return 0;
 }

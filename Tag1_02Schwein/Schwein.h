@@ -7,30 +7,28 @@
 // Definition im Headerfile
 
 #include <string>
+#include <ostream>
 
 class Schwein {
 
-private:
+private: // Zugriffsmodifier
 
     // Instanzvariablen
     int gewicht;
     std::string name;
 
-public:
-    // Konstruktor belegt die Instanzvariablen mit sinnvollen Startwerten
+public: // Zugriffsmodifier
+
     Schwein();
 
-    // Getter und Setter (Ermoeglichen die Kontrolle ueber unsere Variablen)
+    int getGewicht() const;
+
     const std::string &getName() const;
 
     void setName(const std::string &name);
 
-    int getGewicht() const;
-
-    // Fachliche Methoden
-
     void fuettern() ;
 
-    void drucken();
+    friend std::ostream &operator<<(std::ostream &os, const Schwein &schwein);
 
 };

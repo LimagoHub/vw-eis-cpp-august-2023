@@ -10,31 +10,34 @@ void Schwein::fuettern() {
     gewicht ++;
 }
 
-
-// Konstruktor
 Schwein::Schwein() {
+    std::cout << "Konstruktor von Schwein" << std::endl;
+
     name = "Nobody";
-    gewicht = 10;
+    gewicht = 5;
 }
 
 int Schwein::getGewicht() const {
     return gewicht;
 }
 
+
 const std::string &Schwein::getName() const {
     return name;
 }
 
 void Schwein::setName(const std::string &name) {
-    if(name == "Elsa"){
-        std::cout << "Name " << name << " ist nicht erlaubt" << std::endl;
+    if(name == "Elsa") {
+        std::cout << "Name nicht erlaubt" << std::endl;
         return;
     }
     Schwein::name = name;
 }
 
-void Schwein::drucken() {
-    std::cout << "Dieses Schwein heisst " << getName()<< " und wiegt " << getGewicht() << std::endl;
+std::ostream &operator<<(std::ostream &os, const Schwein &schwein) {
+    os << "gewicht: " << schwein.gewicht << " name: " << schwein.name;
+    return os;
 }
+
 
 
