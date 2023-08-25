@@ -18,15 +18,15 @@ private:  // Zugriffsmodifier
 
     void setY(double y);
 public:
-    Punkt();
+
+    Punkt(double x = 0, double y = 0);
 
     double getX() const;
 
     double getY() const;
 
 
-
-    void rechts();
+    void rechts(double weite = 1); // Ueberladen (Anzahl oder Art der Parameter unterscheiden)
     void links();
     void oben();
     void unten();

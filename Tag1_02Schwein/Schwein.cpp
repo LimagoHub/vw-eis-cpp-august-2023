@@ -10,12 +10,15 @@ void Schwein::fuettern() {
     gewicht ++;
 }
 
-Schwein::Schwein() {
+Schwein::Schwein(std::string name) : name(name), gewicht(5){
     std::cout << "Konstruktor von Schwein" << std::endl;
 
-    name = "Nobody";
-    gewicht = 5;
 }
+
+Schwein::~Schwein() {
+    std::cout << "Quiiieeeeek!" << std::endl;
+}
+
 
 int Schwein::getGewicht() const {
     return gewicht;
@@ -38,6 +41,7 @@ std::ostream &operator<<(std::ostream &os, const Schwein &schwein) {
     os << "gewicht: " << schwein.gewicht << " name: " << schwein.name;
     return os;
 }
+
 
 
 

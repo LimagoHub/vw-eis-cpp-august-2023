@@ -4,10 +4,7 @@
 
 #include "Punkt.h"
 
-Punkt::Punkt() {
-    x = 0;
-    y = 0;
-}
+
 
 double Punkt::getX() const {
     return x;
@@ -34,9 +31,7 @@ void Punkt::setY(double y) {
     Punkt::y = y;
 }
 
-void Punkt::rechts() {
-    setX( getX() + 1);
-}
+
 
 void Punkt::links() {
     setX( getX() - 1);
@@ -48,6 +43,15 @@ void Punkt::oben() {
 
 void Punkt::unten() {
     setY( getY() - 1);
+}
+
+void Punkt::rechts(double weite) {
+    setX( getX() + weite);
+}
+
+Punkt::Punkt(double x, double y) :x(x), y(y) {
+
+
 }
 
 

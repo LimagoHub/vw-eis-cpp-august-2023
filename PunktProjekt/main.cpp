@@ -5,11 +5,13 @@ using namespace std;
 
 int main() {
 
-    Punkt p;
+    Punkt p{3, 4};
+
+
     cout << p << endl;
 
     for (int i = 0; i < 15; ++i) {
-        p.rechts();
+        p.rechts(1.4);
         cout << p << endl;
     }
 

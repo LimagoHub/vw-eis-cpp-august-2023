@@ -19,7 +19,9 @@ private: // Zugriffsmodifier
 
 public: // Zugriffsmodifier
 
-    Schwein();
+    Schwein(std::string name = "Nobody");
+
+    virtual ~Schwein();  // Tilde
 
     int getGewicht() const;
 
