@@ -1,0 +1,10 @@
+
+E	cpp:S1117")declaration shadows a field of 'Messwert'(¡…Üá8¢øˆÛ¢1
+J	cpp:S1117 ")declaration shadows a field of 'Messwert'(ä¡¯Áüÿÿÿÿ8£øˆÛ¢1
+E	cpp:S1117(")declaration shadows a field of 'Messwert'(ë¦ûµ8¤øˆÛ¢1
+D	cpp:S11170")declaration shadows a field of 'Messwert'(¶¾ïK8¦øˆÛ¢1
+b	cpp:S6009"FReplace this const reference to "std::string" by a "std::string_view".(¡…Üá8§øˆÛ¢1
+g	cpp:S6009 "FReplace this const reference to "std::string" by a "std::string_view".(ä¡¯Áüÿÿÿÿ8§øˆÛ¢1
+b	cpp:S6009("FReplace this const reference to "std::string" by a "std::string_view".(ë¦ûµ8§øˆÛ¢1
+_	cpp:S5566D"CChange this raw for-loop to a range for-loop or an "std::for_each".(àªñê8ºŒµÛ¢1
+^	cpp:S5945>"=Use "std::array" or "std::vector" instead of a C-style array.(×ÙéÚùÿÿÿÿ8¤Ä Û¢1
