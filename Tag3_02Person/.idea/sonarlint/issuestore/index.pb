@@ -1,0 +1,7 @@
+
+G
+Messwertspeicherung.cpp,4\f\4fbf1910697e8a2eb935e2867ce16d0da4427205
+E
+Messwertspeicherung.h,0\2\02f40fbff9f8b8121d9a38016c426a85556b64a7
+8
+main.cpp,6\8\682a50d19e416195436708e48c7761923b8d6651
